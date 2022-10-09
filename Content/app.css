@@ -8,7 +8,8 @@ html,body{
 body {
     background: url('/Assets/bg.png') repeat;
 }
-.container {
+
+.container{
     display: grid;
     grid-template-columns: 80% 20% ;
     grid-template-areas: 
@@ -16,14 +17,44 @@ body {
     "bodycontent pic"
     "bodycontent contact"
     "footer footer" ;
-    grid-template-rows: 75px 1fr 1fr 75px;
+    grid-template-rows: 75px 280px 1fr 75px;
 	row-gap:10px;
 
     margin:100px 100px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#ccc;
 }
+div.nav {
+    display: flex;
+}
+.logo img {
+    width:100px;
+    text-align: center;
+}
+.content .card {
+    color:#202020;
+}
+.content .form-group.row {
+    margin-top: 20px;
+}
+.progress {
+    margin-top: 10px;
+    --bs-progress-height:1.2rem;
+}
+a {
+    color:rgb(248, 98, 98);
+    text-decoration: none;
+}
+a:hover {
+    color:#f00;
+}
+
 /* ////////////////////////////////////////////////////////////////////// */
+.list-group {
+    --bs-list-group-color: #ccc;
+    --bs-list-group-bg: #333333;
+    --bs-list-group-border-color: rgb(247 245 245 / 11%);
+}
 .nav a {
     text-decoration: none;
     color:#202020;
@@ -37,10 +68,10 @@ body {
     border-radius: 50px;
 }
 .nav a:is(:link, :active, :visited).active {
-    color:#ccc;
-    background-color:#202020 ;
-    padding:10px 8px;
-    border-radius: 5px;
+    color: #f00;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #202020;
+
 }
 .nav ul{
     display: flex;
@@ -95,6 +126,12 @@ body {
 .contact ul li{
     list-style: none;
     padding: 8px 5px;
+}
+.bg-light {
+    color:#202020;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
 }
 /* //////////////////////////////////////////////////////////////////////////// */
 .footer {
