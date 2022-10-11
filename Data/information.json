@@ -6,6 +6,13 @@
         "Services":"Services",
         "Contact":"Contact me"
     },
+    "NavLinks" :{
+        "Home":"/index.html",
+        "About":"/aboutme.html",
+        "Projects":"/projects.html",
+        "Services":"/services.html",
+        "Contact":"/contact.html"
+    },
     "Footer":{
         "Copyright":"© Fall 2022 | Hamidreza Naji | 200305068" 
     },
@@ -13,8 +20,14 @@
         "Logo":"/Assets/logo.png",
         "MyPic":"/Assets/me.jpg"
     },
-    "Contact":{
-        "Text":"<h5>Information Details</h5><ul class='list-group list-group-flush'><li class='list-group-item'>🤵 Hamidreza Naji</li><li class='list-group-item'>💻 Web Designer & Developer</li><li class='list-group-item'>☎ +17057702750</li><li class='list-group-item'>📧 HRN2008@yahoo.com</li><li class='list-group-item'>🏡 Barrie, Ontario, Canada</li> </ul>"
+    "Contact":
+    {
+        "Title":"HRN WEB DESIGN",
+        "Name":"🤵 HamidReza Naji",
+        "Web":"💻 Web Designer",
+        "Tel":"☎ +17057702750",
+        "Email":"📧 HRN2008@yahoo.com",
+        "Adrs":"🏠 Barrie, Ontario, Canada"
     },
     "HomePage":
         {
@@ -26,7 +39,34 @@
         "Paragraph3":"<p>As a web designer and programmer, I can provide services and support them well. You can always contact me during the project to know about the progress of the project. For more details please take a look at my services on the <a href='/services.html'>Service page</a>.</p>",
         "Heading4":"<h4>Contact me</h4>",
         "Paragraph4":"<p>To contact me, you can send your message through the form on the <a href='/contact.html'>Contact page</a> and I will respond as soon as possible.</p>"
-
-        }
-    
+        },
+    "AboutMe":
+        {
+            "Heading1":"About me",
+            "Paragraph":"My name is Hamidreza Naji and I am an international student at Georgen College at this time. I am a software engineering graduate from Iran and it has been for a long time ago. After working in Iran for some time, I decided to come to Canada to update my skills and study Interactive Media and Web Design. I am currently working as a freelancer and I prefer to spend most of my time studying. I was working in Iran in the field of web design and used WordPress and Joomla to web design and development. In the summer of 2022, I worked in the same field at TCCO Company and passed my Co-op. I am trying to update  HTML5, CSS3, JavaScript , jQuery, TypeScript and React Knowledge for front-end aspect and PHP, .NET for back-end.I am a self-starter, self-learner, and enthusiastic to tackle new programming strategies and software.",
+            "Heading2":"My Skills"
+        },
+    "Projects":
+    {
+        "Heading1":"Projects",
+        "Paragraph1":"On this page, you can see examples of my works which were done in Canada. Some of them are project-oriented. The projects that are with CMS are done with WordPress, and the rest are completely programmed in the front-end and back-end.",
+        "Samples":
+        [
+            {"Title1":"TCCO","Title2":"KitKat","Title3":"Canadian Tire"},
+            {"Text1":"This is the website of TCCO company that I designed and developed more than 80%. I was one of their team member who work on creating pages, HTML, CSS ,and JS.",
+            "Text2":"This is one of the HTML5,CSS3 Projects that I designed in Georgian College","Text3":"This is also one of my projects in Georgian College"},
+            {"Src1":"/Assets/tcco-page.png","Src2":"/Assets/kitkat-page.png","Src3":"/Assets/canadiantire-page.png"}
+            
+        ]
+    },
+    "Services":
+    {
+        "Title":"Services",
+        "Paragraph":"My best effort is to deliver every project in the best quality and on time and I know that time and quality are the most important factors of every project. My services are divided into 1- Web Design & Development, 2-Digital Marketing, 3-Graphic Design, and 4- Search Engine Optimisation categories.",
+        "Categories":
+        [
+            {"Cat1":"WEB DESIGN & DEVELOPMENT","Cat2":"DIGITAL MARKETING","Cat3":"GRAPHIC DESGIN","Cat4":"Search Engine Optimization"},
+            {"ExpCat1":"If you need a Shopping store website, Business Company website, Personal, etc., you can completely count on me. The design and development of your website will be with the most up-to-date technology and applicable on any platform. Support and training are free for up to 3 months.","ExpCat2":"I provide in-depth solutions for every need. My planning always starts with in-depth keyword research, followed by cost-effective SEM and PPC strategies that capture leads, improve your reach, and maximize your campaign’s performance.","ExpCat3":"By mastering Photoshop and Illustrator, any idea you have in your mind can be designed. This includes logos, banners, advertisements and any other designs. ","ExpCat4":"It is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better."}
+        ]
+    }
 }

@@ -19,10 +19,13 @@ body {
     "footer footer" ;
     grid-template-rows: 75px 280px 1fr 75px;
 	row-gap:10px;
-
     margin:100px 100px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#ccc;
+    text-align: justify;
+}
+ol, ul {
+    padding-left: 0;
 }
 div.nav {
     display: flex;
@@ -88,6 +91,10 @@ a:hover {
 .content {
     grid-area: bodycontent;
     padding: 50px;
+}
+.content .col-6 p {
+    padding: 10px 15px;
+    
 }
 
 .skill-container p{
