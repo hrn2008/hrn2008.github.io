@@ -94,8 +94,13 @@
             $(".footer small").text(DataSource.Footer.Copyright);
             $(".footer .logo img").attr("src", DataSource.Assets.Logo);
         });
-        // });
     }
     window.addEventListener("load", Start);
+    const form = document.querySelector('#contactForm');
+    form.onsubmit = () => {
+        const formData = new FormData(form);
+        const Fname = formData.get('inputFName');
+        const Lname = formData.get('inputLName');
+    };
 })();
 //# sourceMappingURL=app.js.map

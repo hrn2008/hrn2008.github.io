@@ -9,8 +9,7 @@
             $(".container .nav li:nth-child(4) a").text("Services Page");
             $(".container .nav li:nth-child(5) a").text("Contact Me");
             $(".container .logo img").attr("src","/Assets/logo.png");
-            $(".container .pic img").attr("src", "/Assets/me.jpg");
-            
+            $(".container .pic img").attr("src", "/Assets/me.jpg");            
         
            appendContact();
            appendFooter();

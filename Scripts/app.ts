@@ -110,10 +110,21 @@
            $(".footer small").text(DataSource.Footer.Copyright);
           $(".footer .logo img").attr("src",DataSource.Assets.Logo);
           })
-       // });
+      
       
   }
   window.addEventListener("load",Start);
+
+  const form: HTMLFormElement = document.querySelector('#contactForm');
+  form.onsubmit = () => {
+    const formData = new FormData(form);  
+    const Fname = formData.get('inputFName') as string;
+    const Lname = formData.get('inputLName') as string;
+    
+
+  
+  };
+
 })();
 
 
