@@ -1,3 +1,4 @@
+// I started here first with only jq and js (without json). i put all sections in variables. but for me it didn't make sence. so i transfered data to json and read content from json.
 "use strict";
 //IIFE
     (function(){
@@ -187,7 +188,7 @@ switch(activePage) {
         break;
   } 
   appendContents(content);
-
+//I used this foreach for getting all navigations and in case of being an active page, then the active class added to it. 
 const navlinks = document.querySelectorAll('.nav a').forEach(link => {
     // console.log(link.href);
     if (link.href.includes(`${activePage}`)) {

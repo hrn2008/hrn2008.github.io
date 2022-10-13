@@ -23,22 +23,22 @@
     "Contact":
     {
         "Title":"HRN WEB DESIGN",
-        "Name":"🤵 HamidReza Naji",
-        "Web":"💻 Web Designer",
-        "Tel":"☎ +17057702750",
-        "Email":"📧 HRN2008@yahoo.com",
-        "Adrs":"🏠 Barrie, Ontario, Canada"
+        "Name":" HamidReza Naji",
+        "Web":" Web Designer",
+        "Tel":" +17057702750",
+        "Email":" HRN2008@yahoo.com",
+        "Adrs":" Barrie, Ontario, Canada"
     },
     "HomePage":
         {
-        "Heading1":"<h1>Welcome To My Page</h1>",
-        "Paragraph1": "<p>A junior web developer with more than two years of work experiences. I have been working with HTML, CSS,JavaScript, JQuery, SQL, and MySQL databases. I have a great knowledge of PHP, Bootstrap, and CMS such as WordPress, and Joomla. I am a self-starter, self-learner, and enthusiastic to tackle new programing strategies and software.<a href='/aboutme.html'>Read More...</a></p>",
-        "Heading2":"<h4>Projects</h4>",
-        "Paragraph2":"<p>You can see some examples of my work in <a href='/projects.html'>Projects page</a>. Most of them are designed and developed with WordPress CMS (include of HTML, CSS, JS), and some are examples of academic projects.</p>",
-        "Heading3":"<h4>Services</h4>",
-        "Paragraph3":"<p>As a web designer and programmer, I can provide services and support them well. You can always contact me during the project to know about the progress of the project. For more details please take a look at my services on the <a href='/services.html'>Service page</a>.</p>",
-        "Heading4":"<h4>Contact me</h4>",
-        "Paragraph4":"<p>To contact me, you can send your message through the form on the <a href='/contact.html'>Contact page</a> and I will respond as soon as possible.</p>"
+        "Heading1":"Welcome To My Page",
+        "Paragraph1": "A junior web developer with more than two years of work experiences. I have been working with HTML, CSS,JavaScript, JQuery, SQL, and MySQL databases. I have a great knowledge of PHP, Bootstrap, and CMS such as WordPress, and Joomla. I am a self-starter, self-learner, and enthusiastic to tackle new programing strategies and software.<a href='/aboutme.html'>Read More...</a>",
+        "Heading2":"Projects",
+        "Paragraph2":"You can see some examples of my work in <a href='/projects.html'>Projects page</a>. Most of them are designed and developed with WordPress CMS (include of HTML, CSS, JS), and some are examples of academic projects.",
+        "Heading3":"Services",
+        "Paragraph3":"As a web designer and programmer, I can provide services and support them well. You can always contact me during the project to know about the progress of the project. For more details please take a look at my services on the <a href='/services.html'>Service page</a>.",
+        "Heading4":"Contact me",
+        "Paragraph4":"To contact me, you can send your message through the form on the <a href='/contact.html'>Contact page</a> and I will respond as soon as possible."
         },
     "AboutMe":
         {
@@ -55,7 +55,8 @@
             {"Title1":"TCCO","Title2":"KitKat","Title3":"Canadian Tire"},
             {"Text1":"This is the website of TCCO company that I designed and developed more than 80%. I was one of their team member who work on creating pages, HTML, CSS ,and JS.",
             "Text2":"This is one of the HTML5,CSS3 Projects that I designed in Georgian College","Text3":"This is also one of my projects in Georgian College"},
-            {"Src1":"/Assets/tcco-page.png","Src2":"/Assets/kitkat-page.png","Src3":"/Assets/canadiantire-page.png"}
+            {"Src1":"/Assets/tcco-page.png","Src2":"/Assets/kitkat-page.png","Src3":"/Assets/canadiantire-page.png"},
+            {"Thumb1":"/Assets/kitkat.jpg","Thumb2":"/Assets/tcco.jpg","Thumb3":"/Assets/canadiantire.jpg" }
             
         ]
     },
@@ -68,5 +69,15 @@
             {"Cat1":"WEB DESIGN & DEVELOPMENT","Cat2":"DIGITAL MARKETING","Cat3":"GRAPHIC DESGIN","Cat4":"Search Engine Optimization"},
             {"ExpCat1":"If you need a Shopping store website, Business Company website, Personal, etc., you can completely count on me. The design and development of your website will be with the most up-to-date technology and applicable on any platform. Support and training are free for up to 3 months.","ExpCat2":"I provide in-depth solutions for every need. My planning always starts with in-depth keyword research, followed by cost-effective SEM and PPC strategies that capture leads, improve your reach, and maximize your campaign’s performance.","ExpCat3":"By mastering Photoshop and Illustrator, any idea you have in your mind can be designed. This includes logos, banners, advertisements and any other designs. ","ExpCat4":"It is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better."}
         ]
+    },
+    "ContactPage":
+    {
+        "Title":"Contact me",
+        "Paragraph":"I'D LOVE TO HEAR ABOUT YOUR BUSINESS & MARKETING GOALS.",
+        "Fname":"First Name",
+        "Lname":"Last Name",
+        "Email":"Email",
+        "Phone":"Phone Number",
+        "Comments":"Comments"
     }
 }
