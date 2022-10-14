@@ -1,4 +1,10 @@
 "use strict";
+/*
+Mini Portfolio Assignment
+Hamidreza Naji
+S#: 200503068
+Course: Advance Client-side JavaScript - COMP2112
+*/
 (function () {
     function Start() {
         console.log("App Started!");

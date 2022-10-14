@@ -1,3 +1,10 @@
+/*
+This file is my first js file to test - it is disabled
+Mini Portfolio Assignment
+Hamidreza Naji
+S#: 200503068
+Course: Advance Client-side JavaScript - COMP2112
+*/
 // I started here first with only jq and js (without json). i put all sections in variables. but for me it didn't make sence. so i transfered data to json and read content from json.
 "use strict";
 //IIFE
