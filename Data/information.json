@@ -1,12 +1,14 @@
 {
-    "Navigation":{
+    "Navigation":
+    {
         "Home":"Home Page",
         "AboutMe":"About me",
         "Projects":"Projects",
         "Services":"Services",
         "Contact":"Contact me"
     },
-    "NavLinks" :{
+    "NavLinks" :
+    {
         "Home":"/index.html",
         "About":"/aboutme.html",
         "Projects":"/projects.html",
@@ -14,7 +16,7 @@
         "Contact":"/contact.html"
     },
     "Footer":{
-        "Copyright":"© Fall 2022 | Hamidreza Naji | 200305068" 
+        "Copyright":"© Hamidreza Naji | S#:200305068 | Advance Client-side JavaScript - COMP2112" 
     },
     "Assets":{
         "Logo":"/Assets/logo.png",
@@ -30,7 +32,7 @@
         "Adrs":" Barrie, Ontario, Canada"
     },
     "HomePage":
-        {
+    {
         "Heading1":"Welcome To My Page",
         "Paragraph1": "A junior web developer with more than two years of work experiences. I have been working with HTML, CSS,JavaScript, JQuery, SQL, and MySQL databases. I have a great knowledge of PHP, Bootstrap, and CMS such as WordPress, and Joomla. I am a self-starter, self-learner, and enthusiastic to tackle new programing strategies and software.<a href='/aboutme.html'>Read More...</a>",
         "Heading2":"Projects",
@@ -39,13 +41,13 @@
         "Paragraph3":"As a web designer and programmer, I can provide services and support them well. You can always contact me during the project to know about the progress of the project. For more details please take a look at my services on the <a href='/services.html'>Service page</a>.",
         "Heading4":"Contact me",
         "Paragraph4":"To contact me, you can send your message through the form on the <a href='/contact.html'>Contact page</a> and I will respond as soon as possible."
-        },
+    },
     "AboutMe":
-        {
+    {
             "Heading1":"About me",
             "Paragraph":"My name is Hamidreza Naji and I am an international student at Georgen College at this time. I am a software engineering graduate from Iran and it has been for a long time ago. After working in Iran for some time, I decided to come to Canada to update my skills and study Interactive Media and Web Design. I am currently working as a freelancer and I prefer to spend most of my time studying. I was working in Iran in the field of web design and used WordPress and Joomla to web design and development. In the summer of 2022, I worked in the same field at TCCO Company and passed my Co-op. I am trying to update  HTML5, CSS3, JavaScript , jQuery, TypeScript and React Knowledge for front-end aspect and PHP, .NET for back-end.I am a self-starter, self-learner, and enthusiastic to tackle new programming strategies and software.",
             "Heading2":"My Skills"
-        },
+    },
     "Projects":
     {
         "Heading1":"Projects",
